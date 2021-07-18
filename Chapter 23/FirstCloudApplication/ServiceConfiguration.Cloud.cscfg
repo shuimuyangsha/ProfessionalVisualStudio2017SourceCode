@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="FirstCloudApplication" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="5" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="Cloud Front">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=osharppsdemo;AccountKey=$(_osharppsdemo.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="526f3dd6-e25d-482d-8c45-a260bd389e89" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="Cloud Service">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=osharppsdemo;AccountKey=$(_osharppsdemo.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="526f3dd6-e25d-482d-8c45-a260bd389e89" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

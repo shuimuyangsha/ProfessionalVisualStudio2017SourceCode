@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSClassLibrary", "CSClassLibrary\CSClassLibrary.csproj", "{B80A12AD-EBBA-4353-B9A5-88FB7DD1F713}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBClassLibrary", "VBClassLibrary\VBClassLibrary.vbproj", "{1BAB0A21-193D-4D93-8B6F-2F5408A348E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWinFormApp", "CSWinFormApp\CSWinFormApp.csproj", "{E03E0A8F-F2C3-47B6-BEAE-D4E6A933E443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWinFormInterface", "CSWinFormInterface\CSWinFormInterface.csproj", "{989BAD3C-29F3-4BB6-96FA-8D9C9920A6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSConsoleApp", "CSConsoleApp\CSConsoleApp.csproj", "{52F4BF49-FB0A-4CD8-B221-BCF66769F751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWebFormsApp", "CSWebFormsApp\CSWebFormsApp.csproj", "{31392265-CE4D-400B-B041-335E90B21685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWpfApp", "CSWpfApp\CSWpfApp.csproj", "{F4FD4614-2712-48A1-841A-7E9D49A45A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80A12AD-EBBA-4353-B9A5-88FB7DD1F713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80A12AD-EBBA-4353-B9A5-88FB7DD1F713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80A12AD-EBBA-4353-B9A5-88FB7DD1F713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80A12AD-EBBA-4353-B9A5-88FB7DD1F713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAB0A21-193D-4D93-8B6F-2F5408A348E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAB0A21-193D-4D93-8B6F-2F5408A348E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAB0A21-193D-4D93-8B6F-2F5408A348E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAB0A21-193D-4D93-8B6F-2F5408A348E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03E0A8F-F2C3-47B6-BEAE-D4E6A933E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03E0A8F-F2C3-47B6-BEAE-D4E6A933E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03E0A8F-F2C3-47B6-BEAE-D4E6A933E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03E0A8F-F2C3-47B6-BEAE-D4E6A933E443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989BAD3C-29F3-4BB6-96FA-8D9C9920A6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989BAD3C-29F3-4BB6-96FA-8D9C9920A6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989BAD3C-29F3-4BB6-96FA-8D9C9920A6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989BAD3C-29F3-4BB6-96FA-8D9C9920A6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F4BF49-FB0A-4CD8-B221-BCF66769F751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F4BF49-FB0A-4CD8-B221-BCF66769F751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F4BF49-FB0A-4CD8-B221-BCF66769F751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F4BF49-FB0A-4CD8-B221-BCF66769F751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31392265-CE4D-400B-B041-335E90B21685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31392265-CE4D-400B-B041-335E90B21685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31392265-CE4D-400B-B041-335E90B21685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31392265-CE4D-400B-B041-335E90B21685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FD4614-2712-48A1-841A-7E9D49A45A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FD4614-2712-48A1-841A-7E9D49A45A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FD4614-2712-48A1-841A-7E9D49A45A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FD4614-2712-48A1-841A-7E9D49A45A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

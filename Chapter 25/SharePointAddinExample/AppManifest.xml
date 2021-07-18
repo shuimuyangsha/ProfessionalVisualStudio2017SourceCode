@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="SharePointAddinExample"
+     ProductID="{84b28115-b1b9-45b6-a7bf-cf1554f6c2a4}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>SharePointAddinExample</Title>
+    <StartPage>~remoteAppUrl/?{StandardTokens}</StartPage>
+    <SupportedLocales>
+      <SupportedLocale CultureName="aa-ER" />
+    </SupportedLocales>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="*" />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/projectserver/workflow" />
+  </AppPermissionRequests>
+  <AppPrerequisites>
+    <AppPrerequisite Type="AutoProvisioning" ID="Database" />
+    <AppPrerequisite Type="Capability" ID="D4FAB6DC-93EA-48AB-B5DD-CCD9F2FC4E1C" />
+  </AppPrerequisites>
+</App>

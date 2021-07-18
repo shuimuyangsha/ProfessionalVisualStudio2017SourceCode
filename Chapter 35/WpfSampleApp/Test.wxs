@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="WpfSampleApp.Binaries">
+            <Component Id="cmpB68808A504FAB2F7A399B29E59C0056E" Guid="*">
+                <File Id="filEA5FFF2619D646068DD5111DA51A3B86" Source="$(var.WpfSampleApp.TargetDir)\WpfSampleApp.exe" />
+            </Component>
+            <Component Id="cmp294B8AC259E569C58315C8738BE32B76" Guid="*">
+                <File Id="filD6AD66F0B54E050CAC4F3EFB05340249" Source="$(var.WpfSampleApp.TargetDir)\WpfSampleApp.exe.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="WpfSampleApp.Binaries">
+            <ComponentRef Id="cmpB68808A504FAB2F7A399B29E59C0056E" />
+            <ComponentRef Id="cmp294B8AC259E569C58315C8738BE32B76" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{81BE5007-4CAB-4670-AEEB-3DA6572B9D12}") = "HiveApplication", "HiveApplication\HiveApplication.hiveproj", "{32C95B52-13EB-4D2D-8F35-E4F0B3799B80}"
+EndProject
+Project("{79875B75-C0D1-4DF0-91FB-7D5CF7C909B0}") = "PigApplication", "PigApplication\PigApplication.pigproj", "{53677A49-83A6-42C0-8D91-CCAE95B1CE95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C95B52-13EB-4D2D-8F35-E4F0B3799B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C95B52-13EB-4D2D-8F35-E4F0B3799B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C95B52-13EB-4D2D-8F35-E4F0B3799B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C95B52-13EB-4D2D-8F35-E4F0B3799B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53677A49-83A6-42C0-8D91-CCAE95B1CE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53677A49-83A6-42C0-8D91-CCAE95B1CE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53677A49-83A6-42C0-8D91-CCAE95B1CE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53677A49-83A6-42C0-8D91-CCAE95B1CE95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

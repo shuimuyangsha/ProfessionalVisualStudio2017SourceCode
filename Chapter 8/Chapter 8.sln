@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSWpfApp", "CSWpfApp.csproj", "{5E6E8ABE-9870-47FB-BAD4-04941DC2330D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E6E8ABE-9870-47FB-BAD4-04941DC2330D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6E8ABE-9870-47FB-BAD4-04941DC2330D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6E8ABE-9870-47FB-BAD4-04941DC2330D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6E8ABE-9870-47FB-BAD4-04941DC2330D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8A1520-D8D7-4914-97B8-A94FEC3CB87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8A1520-D8D7-4914-97B8-A94FEC3CB87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8A1520-D8D7-4914-97B8-A94FEC3CB87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8A1520-D8D7-4914-97B8-A94FEC3CB87C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
